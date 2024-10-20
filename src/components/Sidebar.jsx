@@ -15,7 +15,7 @@ const SIDE_BAR = [
     name: "Overview",
     icon: BarChart2,
     color: "#6366f1",
-    path: "/",
+    href: "/",
   },
   {
     name: "Products",
