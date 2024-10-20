@@ -3,6 +3,7 @@ import { BarChart2, ShoppingBag, Users, Zap } from "lucide-react";
 import React from "react";
 import Header from "../components/common/Header";
 import StatCard from "../components/common/StatCard";
+import CategoryDistributionChart from "../components/overViewPage/CategoryDistributionChart";
 import SalesOverViewChart from "../components/overViewPage/SalesOverViewChart";
 export default function OverView() {
   return (
@@ -40,8 +41,9 @@ export default function OverView() {
             color="#6366f1"
           />
         </motion.div>
-        <div className="grid grid-cols-1 lg:grid-cols-2">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SalesOverViewChart />
+          <CategoryDistributionChart />
         </div>
       </main>
     </div>
