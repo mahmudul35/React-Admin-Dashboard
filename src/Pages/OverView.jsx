@@ -4,6 +4,7 @@ import React from "react";
 import Header from "../components/common/Header";
 import StatCard from "../components/common/StatCard";
 import CategoryDistributionChart from "../components/overViewPage/CategoryDistributionChart";
+import SalesChannelChart from "../components/overViewPage/SalesChannelChart";
 import SalesOverViewChart from "../components/overViewPage/SalesOverViewChart";
 export default function OverView() {
   return (
@@ -44,6 +45,7 @@ export default function OverView() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <SalesOverViewChart />
           <CategoryDistributionChart />
+          <SalesChannelChart />
         </div>
       </main>
     </div>
